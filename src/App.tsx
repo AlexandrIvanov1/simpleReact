@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Accordion } from './components/accordion/Accordion';
 import {Rating} from "./components/rating/Rating";
-import {OnOff} from "./components/onOff/OnOff";
+import {OnOff} from "./components/onOff/OnOffSecondComponent";
 
 
 
@@ -18,8 +18,9 @@ function App() {
             <Rating value={4}/>
             <Rating value={5}/>
 
-            <OnOff toggle={false}/>
-            <OnOff toggle={true}/>
+            <OnOff/>
+            <OnOff/>
+
         </div>
     );
 }
